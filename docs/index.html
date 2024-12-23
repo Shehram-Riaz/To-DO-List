@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>To-DO List</h1>
+        <p>Save your work here.</p>
+    </header>
+
+    <main>
+        <section id="form-area">
+            <form action="">
+                <h2>Enter here</h2>
+                <input type="text" id="heading" placeholder="Enter heading" required="required">
+                <textarea name="" id="text" placeholder="Enter text here" required="required"></textarea>
+                <div class="buttons">
+                    <button type="reset" id="clear">Clear</button>
+                    <button id="save">Save</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="saved-text-area">
+            <div class="container">
+                <h2>Your Notes</h2>
+                <div class="buttons"><button id="deleteAll">Delete All</button></div>
+            </div>
+            <ul>
+                
+            </ul>
+            <div id="nothing">
+                <p>Nothing saved yet.</p>
+                <i class="fa-solid fa-clock"></i>
+            </div>
+        </section>
+    </main>
+    <script src="/main.js"></script>
+</body>
+
+</html>
